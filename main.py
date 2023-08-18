@@ -9,7 +9,7 @@ customtkinter.set_default_color_theme("dark-blue")  # Themes: "blue" (standard),
 root = customtkinter.CTk()
 root.title('Strong Password Generator')
 root.iconbitmap()
-root.geometry("600x500")
+root.geometry("600x400")
 
 
 def generate_password():
